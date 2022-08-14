@@ -1,5 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.default = ({ strapi }) => {
-    // destroy phase
-};
+exports.default = (function (_a) {
+    var strapi = _a.strapi;
+});
