@@ -6,6 +6,9 @@
     "rootDir": ".",
     "strict": false,
     "declaration": true,
+    "target": "ES5",
+    "module": "commonjs",
+    "esModuleInterop": true,
   },
 
   "include": [
