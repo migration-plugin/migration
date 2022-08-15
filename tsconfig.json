@@ -14,6 +14,7 @@
   },
 
   "include": [
+    "admin",
     // Include the root directory
     "server",
     // Force the JSON files in the src folder to be included
@@ -25,7 +26,7 @@
     "dist/",
 
     // Do not include admin files in the server compilation
-    "admin/",
+
     // Do not include test files
     "**/*.test.ts"
   ]
