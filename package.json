@@ -1,15 +1,23 @@
 {
   "name": "@migration-plugin/migration",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Strapi pluggin to migrate data from one environment to another.",
   "strapi": {
     "name": "migration",
+    "displayName": "Migration",
     "description": "Description of migration plugin",
     "kind": "plugin"
   },
+  "dependencies": {},
   "devDependencies": {
     "typescript": "4.6.3",
     "@strapi/strapi": "4.1.8"
+  },
+  "peerDependencies": {
+    "@strapi/strapi": "^4.3.6"
+  },
+  "resolutions": {
+    "yargs": "^17.2.1"
   },
   "author": "A Strapi developer",
   "maintainers": [
