@@ -15,6 +15,7 @@
 
   "include": [
     "admin",
+    "admin/**/*.json",
     // Include the root directory
     "server",
     // Force the JSON files in the src folder to be included
