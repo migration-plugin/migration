@@ -1,6 +1,6 @@
 {
   "name": "@migration-plugin/migration",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Strapi pluggin to migrate data from one environment to another.",
   "strapi": {
     "name": "migration",
